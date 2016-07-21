@@ -1,6 +1,0 @@
-{
-  "name": "Nb",
-  "tagline": "some words",
-  "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>your qrcode</title>\r\n\r\n</head>\r\n<body>\r\n<h1>\r\n\t二维码生成器\r\n</h1>\r\n<div>\r\n\t需要生成二维码的文本：<input id=\"txt\" />\r\n\t<button>&nbsp;biu&nbsp;</button>\r\n</div>\r\n\r\n<div id=\"output\"></div>\r\n\r\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js\"></script>\r\n<script type=\"text/javascript\" src=\"jquery.qrcode.min.js\"></script>\r\n<script>\r\n$(function(){\r\n\t$('button').click(function(){\r\n\t\tvar text = $('#txt').val();\r\n\t\tif(text != ''){\r\n\t\t\t$('#output').html('').qrcode(text);\r\n\t\t}\r\n\t\t\r\n\t});\r\n\t\r\n})\r\n</script>\r\n\r\n</body>\r\n</html>\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
