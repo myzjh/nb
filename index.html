@@ -1,34 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>your qrcode</title>
-
+<title>Zindex</title>
 </head>
 <body>
-<h1>
-	二维码生成器
-</h1>
+<h1>Intro</h1>
 <div>
-	需要生成二维码的文本：<input id="txt" />
-	<button>&nbsp;biu&nbsp;</button>
+	<p>Here is some code from other open source project of github,and I develop on it.</p>
 </div>
-
-<div id="output"></div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.qrcode.min.js"></script>
-<script>
-$(function(){
-	$('button').click(function(){
-		var text = $('#txt').val();
-		if(text != ''){
-			$('#output').html('').qrcode(text);
-		}
-		
-	});
-	
-})
-</script>
-
+<div id="urls">
+	<ul>
+		<li><a href="qrcode.html">qrcode builder</a></li>
+	</ul>
+</div>
 </body>
 </html>
